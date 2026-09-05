@@ -45,7 +45,7 @@ galaxy_arms:
 #   arm: 0-2                  — Which galaxy arm to associate with (index)
 #   description: "..."        — Short description shown on the card
 projects:
- - repo: "galaxy-dev/nebula-ui" "codingwithdavinc1110/recepitSplitter"
+ - repo: "galaxy-dev/nebula-ui" "codingwithdavinc1110/ReceiptSplitter"
     arm: 0
     description: "A recepit splitter for roomers"
 
