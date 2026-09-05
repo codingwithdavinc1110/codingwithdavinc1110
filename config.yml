@@ -56,10 +56,10 @@ galaxy_arms:
 #   description: "..."        — Short description shown on the card
 projects:
   - repo: "codingwithdavinc1110/ReceiptSplitter"
-    arm: 0
+    arm: 2
     description: "RecepitSplliter for roommates"
   - repo: "codingwithdavinc1110/myCyberchallengeProgramming"
-    arm: 1
+    arm: 0
     description: "Solving CTF."
 
 # Theme color overrides (optional — defaults to deep space palette)
