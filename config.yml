@@ -10,46 +10,47 @@
 #   python -m generator.main --demo
 
 # Your GitHub username (required)
-username: codingwithdavinc1110
+username: galaxy-dev
 
 # Profile information displayed in the galaxy header
 profile:
-  name: "Brandon J. Mondoy M."
-  tagline: "Computer Engineering Student"
-  company: "UNIFI, Florence"
-  location: "Florence, Italy"
+  name: "Nyx Orion"
+  tagline: "Full Stack Developer & Open Source Explorer"
+  company: "Stellar Labs"
+  location: "San Francisco, CA"
   bio: |
-     Learning all day long.
-  philosophy: '"Non devo avere paura. La paura uccide la mente. La paura è la piccola morte che porta con sé l annullamento totale. "'
+    Building tools that make developers' lives easier.
+    Passionate about distributed systems, developer experience, and the open-source ecosystem.
+  philosophy: '"The best code is the code that empowers others."'
 
 # Social links displayed at the bottom of the profile
 social:
-  email: "brandonjmondoym@gmail.com"
-  linkedin: ""
-  website: ""
+  email: "nyx@stellarlabs.dev"
+  linkedin: "nyxorion"
+  website: "https://nyxorion.dev"
 
 # Galaxy arms represent your core focus areas
 # Each arm spirals out from the center with its own color and tech items
 # Available colors: "synapse_cyan", "dendrite_violet", "axon_amber"
 galaxy_arms:
+  - name: "Frontend"
+    color: "dendrite_violet"
+    items:
+      - "TypeScript"
+      - "React"
+      - "CSS"
   - name: "Backend"
     color: "synapse_cyan"
     items:
       - "Python"
-      - "C++"
-      - "Java"
-  - name: "Others_example"
-    color: "synapse_cyan"
-    items:
-      - "Python"
       - "Node.js"
       - "PostgreSQL"
-  - name: "another one"
-    color: "synapse_cyan"
+  - name: "DevOps"
+    color: "axon_amber"
     items:
-      - "Python"
-      - "Node.js"
-      - "PostgreSQL"
+      - "Docker"
+      - "GitHub Actions"
+      - "AWS"
 
 # Featured projects shown as constellation stars
 # Each project needs:
@@ -57,9 +58,12 @@ galaxy_arms:
 #   arm: 0-2                  — Which galaxy arm to associate with (index)
 #   description: "..."        — Short description shown on the card
 projects:
- - repo: "galaxy-dev/nebula-ui" "codingwithdavinc1110/ReceiptSplitter"
+  - repo: "galaxy-dev/nebula-ui"
     arm: 0
-    description: "A recepit splitter for roomers"
+    description: "A component library with cosmic design tokens and dark-first theming."
+  - repo: "galaxy-dev/stargate-api"
+    arm: 1
+    description: "High-performance API gateway with built-in observability and caching."
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
