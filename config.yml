@@ -16,12 +16,11 @@ username: codingwithdavinc1110
 profile:
   name: "Brandon J. Mondoy"
   tagline: "Computer Engineer Student"
-  company: "Stellar Labs"
-  location: "San Francisco, CA"
+  company: "Unifi, Florence"
+  location: "Florence, Italy"
   bio: |
-    Building tools that make developers' lives easier.
-    Passionate about distributed systems, developer experience, and the open-source ecosystem.
-  philosophy: '"The best code is the code that empowers others."'
+    Learning all day long!
+  philosophy: '"Non devo avere paura, la paura è la piccola morte."'
 
 # Social links displayed at the bottom of the profile
 social:
