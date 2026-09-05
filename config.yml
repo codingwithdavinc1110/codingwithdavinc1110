@@ -32,7 +32,7 @@ social:
 # Each arm spirals out from the center with its own color and tech items
 # Available colors: "synapse_cyan", "dendrite_violet", "axon_amber"
 galaxy_arms:
-  - name: "Known"
+  - name: "Old School"
     color: "dendrite_violet"
     items:
       - "C++"
@@ -43,7 +43,6 @@ galaxy_arms:
     items:
       - "RISC"
       - "80x86"
-      - "TEST"
   - name: "New School"
     color: "axon_amber"
     items:
@@ -56,12 +55,12 @@ galaxy_arms:
 #   arm: 0-2                  — Which galaxy arm to associate with (index)
 #   description: "..."        — Short description shown on the card
 projects:
-  - repo: "galaxy-dev/nebula-ui"
+  - repo: "codingwithdavinc1110/ReceiptSplitter"
     arm: 0
-    description: "A component library with cosmic design tokens and dark-first theming."
-  - repo: "galaxy-dev/stargate-api"
+    description: "RecepitSplliter for roommates"
+  - repo: "codingwithdavinc1110/myCyberchallengeProgramming"
     arm: 1
-    description: "High-performance API gateway with built-in observability and caching."
+    description: "Solving CTF."
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
