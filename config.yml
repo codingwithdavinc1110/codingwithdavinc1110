@@ -38,6 +38,18 @@ galaxy_arms:
       - "Python"
       - "C++"
       - "Java"
+  - name: "Others_example"
+    color: "synapse_cyan"
+    items:
+      - "Python"
+      - "Node.js"
+      - "PostgreSQL"
+  - name: "another one"
+    color: "synapse_cyan"
+    items:
+      - "Python"
+      - "Node.js"
+      - "PostgreSQL"
 
 # Featured projects shown as constellation stars
 # Each project needs:
