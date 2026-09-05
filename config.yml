@@ -14,7 +14,7 @@ username: codingwithdavinc1110
 
 # Profile information displayed in the galaxy header
 profile:
-  name: "Brandon J. Mondoy"
+  name: "codingwithdavinc1110"
   tagline: "Computer Engineer Student"
   company: "Unifi, Florence"
   location: "Florence, Italy"
@@ -32,24 +32,23 @@ social:
 # Each arm spirals out from the center with its own color and tech items
 # Available colors: "synapse_cyan", "dendrite_violet", "axon_amber"
 galaxy_arms:
-  - name: "Backend"
+  - name: "Known"
     color: "dendrite_violet"
     items:
-      - "Python"
+      - "C++"
       - "Bash"
       - "Java"
-  - name: "Backend"
+  - name: "Assembly"
     color: "synapse_cyan"
     items:
-      - "Python"
-      - "Node.js"
-      - "PostgreSQL"
-  - name: "DevOps"
+      - "RISC"
+      - "80x86"
+      - "TEST"
+  - name: "New School"
     color: "axon_amber"
     items:
-      - "Docker"
-      - "GitHub Actions"
-      - "AWS"
+      - "Python"
+      - "Rust"
 
 # Featured projects shown as constellation stars
 # Each project needs:
